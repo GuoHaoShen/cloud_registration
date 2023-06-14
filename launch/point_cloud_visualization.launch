@@ -1,0 +1,5 @@
+<launch>
+  <!-- 启动节点 -->
+  <node name="point_cloud_visualization_node" pkg="cloud_registration" type="point_cloud_visualization_node" output="screen"/>
+
+</launch>

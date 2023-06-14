@@ -1,0 +1,7 @@
+<launch>
+  <!-- 启动节点 -->
+  <node name="point_cloud_matcher" pkg="cloud_registration" type="point_cloud_matcher" output="screen"/>
+
+  <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find cloud_registration)/rviz/point_cloud_matcher.rviz"/>
+</launch>
